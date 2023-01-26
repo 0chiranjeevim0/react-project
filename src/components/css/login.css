@@ -1,0 +1,47 @@
+.navbar-container{
+    width:98%;
+    background-color:#070126;
+    padding:10px 20px 10px 20px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar-container ul{
+    list-style:none;
+    display:inline-flex;
+
+    
+}
+.navbar-container li{
+    margin-left:10px;
+    margin-right:10px;
+}
+.navbar-container ul a{
+    text-decoration:none;
+    color:white;
+    
+}
+.login-master-container{
+    width:98%;
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-container{
+    border:1px solid black;
+    border-radius:10px;
+    width:fit-content;
+    padding:10px;
+}
+.login-container input{
+    padding:5px 20px 5px 20px;
+}
+
+.login-container button{
+    margin-top:20px;
+    padding: 5px 20px 5px 20px;
+}
